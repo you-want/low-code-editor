@@ -1,0 +1,21 @@
+{
+  "name": "low-code-editor",
+  "version": "1.0.0",
+  "description": "low-code-editor 低代码编辑器",
+  "main": "index.js",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Rain9",
+  "license": "ISC",
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.22.0",
+    "@typescript-eslint/parser": "^5.22.0",
+    "eslint": "^8.15.0",
+    "eslint-define-config": "^1.4.0",
+    "typescript": "^4.6.4",
+    "unbuild": "^0.7.4",
+    "vite": "^2.9.8"
+  }
+}
