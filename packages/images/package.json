@@ -1,14 +1,13 @@
 {
-  "name": "@you-want/shared",
+  "name": "@you-want/image",
   "version": "0.0.1",
-  "description": "",
-  "main": "./dist/index.ts.cjs",
-  "module": "./dist/index.ts.mjs",
+  "main": "./dist/index.cjs",
+  "module": "./dist/index.mjs",
   "types": "./dist/index.d.ts",
   "exports": {
     ".": {
-      "import": "./dist/index.ts.mjs",
-      "require": "./dist/index.ts.cjs"
+      "import": "./dist/index.mjs",
+      "require": "./dist/index.cjs"
     }
   },
   "publishConfig": {
@@ -22,16 +21,13 @@
     "dist"
   ],
   "scripts": {
-    "build": "unbuild",
-    "stub": "unbuild --stub",
-    "test": "vitest"
+    "build": "vite build"
   },
   "keywords": [
     "low-code",
-    "typescript",
-    "unbuild"
+    "typescript"
   ],
   "license": "MIT",
-  "author": "rain9",
+  "author": "Rain9",
   "dependencies": {}
 }

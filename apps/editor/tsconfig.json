@@ -1,6 +1,16 @@
 {
   "extends": "../../tsconfig.json",
   "compilerOptions": {
-    "jsx": "preserve"
-  }
+    "jsx": "preserve",
+    "baseUrl": "./",
+    "paths": {
+      "@/*": [
+        "./src/*"
+      ]
+    },
+  },
+  "include": [
+    "../../env.d.ts",
+    "./src/**/*"
+  ]
 }

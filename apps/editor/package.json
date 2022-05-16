@@ -13,8 +13,10 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@you-want/shared": "workspace:^1.0.0",
-    "vue": "^3.2.33"
+    "@you-want/shared": "workspace:^0.0.1",
+    "pinia": "^2.0.14",
+    "vue": "^3.2.33",
+    "vue-router": "^4.0.15"
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^2.3.2",

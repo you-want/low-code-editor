@@ -1,11 +1,9 @@
 <template>
-  <div>App</div>
+  <BasicLayout>
+    <router-view />
+  </BasicLayout>
 </template>
 
 <script setup lang="ts">
-
+import BasicLayout from './components/BasicLayout/index.vue';
 </script>
-
-<style>
-
-</style>
