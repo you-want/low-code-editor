@@ -1,0 +1,34 @@
+{
+  "name": "@you-want/watermark",
+  "version": "0.0.1",
+  "description": "watermark",
+  "main": "./dist/index.ts.cjs",
+  "module": "./dist/index.ts.mjs",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/index.ts.mjs",
+      "require": "./dist/index.ts.cjs"
+    }
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/you-want/low-code-editor"
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "unbuild",
+    "stub": "unbuild --stub",
+    "test": "vitest"
+  },
+  "keywords": [
+    "watermark"
+  ],
+  "author": "Rain9",
+  "license": "MIT"
+}
